@@ -8,7 +8,7 @@ const Testimonials = () => {
       <Hero 
         title="Client Experiences"
         subtitle="Don't just take our word for it. Hear from homeowners who have entrusted us with their most personal spaces."
-        image="https://images.unsplash.com/photo-1542314831-c6a4d14eff4c?q=80&w=2070&auto=format&fit=crop"
+        image="/images/client-experiences-hero.png"
       />
       <div className="container section">
         <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '2.5rem'}}>

@@ -8,7 +8,7 @@ const BathroomRemodeling = () => {
       <Hero 
         title="Bathroom Remodeling"
         subtitle="A private sanctuary for restoration and relaxation."
-        image="https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=2069&auto=format&fit=crop"
+        image="/images/bathroom-remodeling-fix.png"
       />
       <div className="container section">
         <div style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem', maxWidth: '1000px', margin: '0 auto'}}>
@@ -21,7 +21,7 @@ const BathroomRemodeling = () => {
               Whether you desire a seamless curbless shower enclosure, a deep soaking tub, or dual custom vanities with integrated lighting, our designers craft spaces that cater to your daily rituals. We source the finest tiles, natural stones, and fixtures to ensure your new bathroom is a sanctuary of comfort and luxury.
             </p>
 
-            <img src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?q=80&w=2070&auto=format&fit=crop" alt="Luxury bathroom shower" style={{width: '100%', marginBottom: '3rem'}} />
+            <img src="/images/bathroom-remodeling-fix.png" alt="Luxury bathroom shower" style={{width: '100%', marginBottom: '3rem'}} />
 
             <h3 className="mb-4">Elevated Bath Features</h3>
             <ul style={{display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '3rem', fontSize: '1.05rem'}}>

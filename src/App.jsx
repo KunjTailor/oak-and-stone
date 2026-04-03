@@ -5,6 +5,7 @@ import { useLocation } from 'react-router-dom';
 // Layout Components
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Watermark from './components/Watermark';
 
 // Pages
 import Home from './pages/Home';
@@ -21,6 +22,14 @@ import KitchenRemodeling from './pages/KitchenRemodeling';
 import BathroomRemodeling from './pages/BathroomRemodeling';
 import WholeHomeRenovations from './pages/WholeHomeRenovations';
 import CustomCabinetry from './pages/CustomCabinetry';
+
+// Project Detail Pages
+import ProjectModernKitchen from './pages/ProjectModernKitchen';
+import ProjectSpaBath from './pages/ProjectSpaBath';
+import ProjectChefsKitchen from './pages/ProjectChefsKitchen';
+import ProjectColonialRenovation from './pages/ProjectColonialRenovation';
+import ProjectWetRoom from './pages/ProjectWetRoom';
+import ProjectMudroomPantry from './pages/ProjectMudroomPantry';
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -52,9 +61,18 @@ function App() {
             <Route path="/services/bathroom-remodeling" element={<BathroomRemodeling />} />
             <Route path="/services/whole-home-renovations" element={<WholeHomeRenovations />} />
             <Route path="/services/custom-cabinetry" element={<CustomCabinetry />} />
+
+            {/* Project Detail Pages */}
+            <Route path="/portfolio/modern-minimalist-kitchen" element={<ProjectModernKitchen />} />
+            <Route path="/portfolio/spa-inspired-primary-bath" element={<ProjectSpaBath />} />
+            <Route path="/portfolio/transitional-chefs-kitchen" element={<ProjectChefsKitchen />} />
+            <Route path="/portfolio/main-line-colonial-renovation" element={<ProjectColonialRenovation />} />
+            <Route path="/portfolio/contemporary-wet-room" element={<ProjectWetRoom />} />
+            <Route path="/portfolio/bespoke-mudroom-pantry" element={<ProjectMudroomPantry />} />
           </Routes>
         </main>
         <Footer />
+        <Watermark />
       </div>
     </Router>
   );

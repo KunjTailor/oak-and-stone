@@ -96,12 +96,14 @@ const Home = () => {
               title="Modern Minimalist Kitchen"
               category="Kitchen"
               description="A complete tear-down and rebuild featuring custom matte black cabinetry and Calacatta marble."
+              link="/portfolio/modern-minimalist-kitchen"
             />
             <ProjectCard 
-              image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop"
-              title="Spa-Inspired Primary Bath"
-              category="Bathroom"
-              description="Transformed an outdated bathroom into a serene retreat with a freestanding soaking tub."
+              image="/images/mudroom-pantry-fix.png"
+              title="Bespoke Mudroom & Pantry"
+              category="Custom Cabinetry"
+              description="Custom millwork designed to maximize storage while maintaining an elegant aesthetic."
+              link="/portfolio/bespoke-mudroom-pantry"
             />
           </div>
           <div className="mobile-only-btn text-center mt-4">

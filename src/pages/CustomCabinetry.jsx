@@ -21,6 +21,8 @@ const CustomCabinetry = () => {
               Whether you're looking for sleek, European-style flat panels for a modern aesthetic, or rich, inset shaker doors for a classic transitional look, our cabinetry stands as the foundation of our high-end remodels. We use only premium woods, heavy-duty soft-close hardware, and resilient finishing techniques.
             </p>
 
+            <img src="/images/custom-cabinetry.png" alt="Custom walnut cabinetry with brass hardware" style={{width: '100%', marginBottom: '3rem'}} />
+
             <h3 className="mb-4">Beyond the Kitchen</h3>
             <ul style={{display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '3rem', fontSize: '1.05rem'}}>
               <li><strong>Built-Ins & Libraries:</strong> Elegant shelving and media centers for your living spaces.</li>
