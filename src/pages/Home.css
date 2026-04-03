@@ -1,0 +1,247 @@
+/* Home Page Specific Styles */
+.section-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-taupe);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Trust Section */
+.trust-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.trust-content h2 {
+  margin-bottom: 1.5rem;
+}
+
+.trust-features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.trust-feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.trust-icon {
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
+}
+
+.trust-feature h4 {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.trust-feature p {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+}
+
+/* Services Overview */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.service-card-simple {
+  display: block;
+  group: true;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-soft-stone);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.service-card-simple:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+}
+
+.service-card-simple img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.service-card-content {
+  padding: 2rem;
+  text-align: left;
+}
+
+.service-card-content h3 {
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.service-card-simple:hover .service-card-content h3 {
+  color: var(--color-accent);
+}
+
+.learn-more {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Portfolio Preview */
+.section-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.mobile-only-btn {
+  display: none;
+}
+
+/* Process Preview */
+.process-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.process-image-col {
+  position: relative;
+}
+
+.process-img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  box-shadow: 20px 20px 0 var(--color-soft-stone);
+}
+
+.process-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.process-list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.process-num {
+  font-family: var(--font-heading);
+  color: var(--color-accent);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Testimonials */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+/* CTA Section */
+.cta-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--color-white);
+  padding: 8rem 0;
+}
+
+.cta-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 34, 34, 0.85); /* Dark charcoal overlay */
+  z-index: 1;
+}
+
+.cta-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.cta-content h2 {
+  color: var(--color-white);
+  margin-bottom: 1.5rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .trust-grid, .process-grid {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .trust-grid, .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-image-col {
+    order: 2; /* Put image after content on mobile */
+  }
+  
+  .process-content-col {
+    order: 1;
+  }
+
+  .services-grid, .portfolio-grid, .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .mobile-only-btn {
+    display: block;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+}
