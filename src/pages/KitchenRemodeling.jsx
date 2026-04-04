@@ -8,7 +8,7 @@ const KitchenRemodeling = () => {
       <Hero 
         title="Kitchen Remodeling"
         subtitle="The culinary heart of your home, designed for gathering and gastronomy."
-        image="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=2070&auto=format&fit=crop"
+        image="/images/kitchen-hero.png"
       />
       <div className="container section">
         <div style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem', maxWidth: '1000px', margin: '0 auto'}}>
@@ -21,7 +21,7 @@ const KitchenRemodeling = () => {
               Our bespoke kitchen remodels are tailored to how you live. We focus on optimizing flow and maximizing storage without sacrificing an ounce of style. From custom-milled cabinetry and statement islands to integrated professional-grade appliances and ambient lighting, every element is curated to create a space that is as breathtaking as it is practical.
             </p>
 
-            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop" alt="Luxury kitchen island details" style={{width: '100%', marginBottom: '3rem'}} />
+            <img src="/images/kitchen-island.png" alt="Luxury kitchen island details" style={{width: '100%', marginBottom: '3rem'}} />
 
             <h3 className="mb-4">Our Approach to Kitchens</h3>
             <ul style={{display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '3rem', fontSize: '1.05rem'}}>

@@ -8,7 +8,7 @@ const CustomCabinetry = () => {
       <Hero 
         title="Custom Cabinetry"
         subtitle="Handcrafted woodwork tailored precisely to your space and lifestyle."
-        image="https://images.unsplash.com/photo-1596766099351-ad3ccce11bf1?q=80&w=2080&auto=format&fit=crop"
+        image="/images/cabinetry-hero.png"
       />
       <div className="container section">
         <div style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem', maxWidth: '1000px', margin: '0 auto'}}>

@@ -10,7 +10,7 @@ const ProjectModernKitchen = () => {
       <Hero 
         title="Modern Minimalist Kitchen"
         subtitle="A complete tear-down and rebuild featuring custom matte black cabinetry and Calacatta marble."
-        image="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop"
+        image="/images/kitchen-island.png"
       />
       <div className="container section">
         <div className="project-detail-content">
@@ -56,9 +56,9 @@ const ProjectModernKitchen = () => {
           </div>
 
           <div className="project-detail-gallery">
-            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop" alt="Kitchen island with marble waterfall edge" />
-            <img src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?q=80&w=2070&auto=format&fit=crop" alt="Custom matte black cabinetry detail" />
-            <img src="https://images.unsplash.com/photo-1556909190-bffb90650e80?q=80&w=2070&auto=format&fit=crop" alt="Professional-grade appliance integration" />
+            <img src="/images/kitchen-island.png" alt="Kitchen island with marble waterfall edge" />
+            <img src="/images/kitchen-hero.png" alt="Custom matte black cabinetry detail" />
+            <img src="/images/whole-home-renovation.png" alt="Professional-grade appliance integration" />
           </div>
 
           <div className="project-detail-features">

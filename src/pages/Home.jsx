@@ -13,7 +13,7 @@ const Home = () => {
       <Hero 
         title="Elevate Your Every Day."
         subtitle="Premium kitchen, bath, and whole-home remodeling designed for the way you live. Bringing established craftsmanship to the Pennsylvania area."
-        image="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop"
+        image="/images/kitchen-hero.png"
         showCTA={true}
         height="85vh"
         align="center"
@@ -56,21 +56,21 @@ const Home = () => {
           <h2 className="mb-12">Transforming Spaces</h2>
           <div className="services-grid">
             <Link to="/services/kitchen-remodeling" className="service-card-simple">
-              <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=2070&auto=format&fit=crop" alt="Kitchen Remodeling" />
+              <img src="/images/kitchen-hero.png" alt="Kitchen Remodeling" />
               <div className="service-card-content">
                 <h3>Kitchen Remodeling</h3>
                 <span className="learn-more">Learn More <ChevronRight size={16} /></span>
               </div>
             </Link>
             <Link to="/services/bathroom-remodeling" className="service-card-simple">
-              <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=2069&auto=format&fit=crop" alt="Bathroom Remodeling" />
+              <img src="/images/bathroom-hero.png" alt="Bathroom Remodeling" />
               <div className="service-card-content">
                 <h3>Bathroom Remodeling</h3>
                 <span className="learn-more">Learn More <ChevronRight size={16} /></span>
               </div>
             </Link>
             <Link to="/services/whole-home-renovations" className="service-card-simple">
-              <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop" alt="Whole-Home Renovations" />
+              <img src="/images/whole-home-renovation.png" alt="Whole-Home Renovations" />
               <div className="service-card-content">
                 <h3>Whole-Home</h3>
                 <span className="learn-more">Learn More <ChevronRight size={16} /></span>
@@ -92,7 +92,7 @@ const Home = () => {
           </div>
           <div className="portfolio-grid">
             <ProjectCard 
-              image="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop"
+              image="/images/kitchen-island.png"
               title="Modern Minimalist Kitchen"
               category="Kitchen"
               description="A complete tear-down and rebuild featuring custom matte black cabinetry and Calacatta marble."
@@ -117,7 +117,7 @@ const Home = () => {
         <div className="container">
           <div className="process-grid">
             <div className="process-image-col">
-              <img src="https://images.unsplash.com/photo-1593696140826-c58b021acf8b?q=80&w=2070&auto=format&fit=crop" alt="Design planning" className="process-img" />
+              <img src="/images/design-planning.png" alt="Design planning" className="process-img" />
             </div>
             <div className="process-content-col">
               <span className="section-eyebrow">How We Work</span>
@@ -157,7 +157,7 @@ const Home = () => {
       </section>
 
       {/* Financing & Final CTA */}
-      <section className="section cta-section text-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop')" }}>
+      <section className="section cta-section text-center" style={{ backgroundImage: "url('/images/chefs-kitchen-range.png')" }}>
         <div className="cta-overlay"></div>
         <div className="container cta-content">
           <h2>Ready to Begin Your Transformation?</h2>

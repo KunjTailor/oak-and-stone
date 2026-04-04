@@ -9,7 +9,7 @@ const Contact = () => {
       <Hero 
         title="Start Your Consultation"
         subtitle="We typically respond to all inquiries within 24 business hours."
-        image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop"
+        image="/images/bathroom-hero.png"
       />
       <div className="container section">
         <div className="contact-container">

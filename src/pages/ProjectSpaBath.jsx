@@ -10,7 +10,7 @@ const ProjectSpaBath = () => {
       <Hero 
         title="Spa-Inspired Primary Bath"
         subtitle="Transformed an outdated bathroom into a serene retreat with a freestanding soaking tub."
-        image="https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=2069&auto=format&fit=crop"
+        image="/images/bathroom-hero.png"
       />
       <div className="container section">
         <div className="project-detail-content">
@@ -56,9 +56,9 @@ const ProjectSpaBath = () => {
           </div>
 
           <div className="project-detail-gallery">
-            <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=2070&auto=format&fit=crop" alt="Freestanding soaking tub by window" />
-            <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070&auto=format&fit=crop" alt="Walk-in shower with frameless glass" />
-            <img src="https://images.unsplash.com/photo-1604709177225-055f99402ea3?q=80&w=2070&auto=format&fit=crop" alt="Custom vanity with brass fixtures" />
+            <img src="/images/bathroom-hero.png" alt="Freestanding soaking tub by window" />
+            <img src="/images/wet-room.png" alt="Walk-in shower with frameless glass" />
+            <img src="/images/brass-vanity.png" alt="Custom vanity with brass fixtures" />
           </div>
 
           <div className="project-detail-features">

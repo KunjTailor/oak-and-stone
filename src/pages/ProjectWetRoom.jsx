@@ -10,7 +10,7 @@ const ProjectWetRoom = () => {
       <Hero 
         title="Contemporary Wet Room"
         subtitle="An expansive, curbless shower and tub enclave wrapped in large-format porcelain tile."
-        image="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?q=80&w=2070&auto=format&fit=crop"
+        image="/images/wet-room.png"
       />
       <div className="container section">
         <div className="project-detail-content">
@@ -56,9 +56,9 @@ const ProjectWetRoom = () => {
           </div>
 
           <div className="project-detail-gallery">
-            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop" alt="Full wet room with curbless entry" />
-            <img src="https://images.unsplash.com/photo-1600573472592-401b489a3cdc?q=80&w=2070&auto=format&fit=crop" alt="Linear drain and large-format tile detail" />
-            <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?q=80&w=2070&auto=format&fit=crop" alt="Freestanding tub within wet room" />
+            <img src="/images/wet-room.png" alt="Full wet room with curbless entry" />
+            <img src="/images/brass-vanity.png" alt="Linear drain and large-format tile detail" />
+            <img src="/images/bathroom-hero.png" alt="Freestanding tub within wet room" />
           </div>
 
           <div className="project-detail-features">

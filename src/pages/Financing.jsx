@@ -8,7 +8,7 @@ const Financing = () => {
       <Hero 
         title="Flexible Financing"
         subtitle="Bring your vision to life today with convenient payment options customized to your project."
-        image="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?q=80&w=2070&auto=format&fit=crop"
+        image="/images/design-planning.png"
       />
       <div className="container section">
         <div className="max-w-800 mx-auto" style={{maxWidth: '800px', margin: '0 auto'}}>

@@ -8,7 +8,7 @@ const WholeHomeRenovations = () => {
       <Hero 
         title="Whole-Home Renovations"
         subtitle="Reimagining your living space with cohesive design and master execution."
-        image="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop"
+        image="/images/whole-home-renovation.png"
       />
       <div className="container section">
         <div style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem', maxWidth: '1000px', margin: '0 auto'}}>

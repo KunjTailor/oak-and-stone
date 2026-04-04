@@ -10,7 +10,7 @@ const ProjectChefsKitchen = () => {
       <Hero 
         title="Transitional Chef's Kitchen"
         subtitle="Designed for a culinary enthusiast, featuring professional-grade appliances and a massive prep island."
-        image="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+        image="/images/chefs-kitchen-range.png"
       />
       <div className="container section">
         <div className="project-detail-content">
@@ -56,9 +56,9 @@ const ProjectChefsKitchen = () => {
           </div>
 
           <div className="project-detail-gallery">
-            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070&auto=format&fit=crop" alt="Chef's kitchen prep island overview" />
-            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070&auto=format&fit=crop" alt="Professional range and hood detail" />
-            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070&auto=format&fit=crop" alt="Custom sage green cabinetry" />
+            <img src="/images/kitchen-hero.png" alt="Chef's kitchen prep island overview" />
+            <img src="/images/chefs-kitchen-range.png" alt="Professional range and hood detail" />
+            <img src="/images/cabinetry-hero.png" alt="Custom sage green cabinetry" />
           </div>
 
           <div className="project-detail-features">

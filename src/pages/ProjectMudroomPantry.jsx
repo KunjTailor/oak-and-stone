@@ -57,8 +57,8 @@ const ProjectMudroomPantry = () => {
 
           <div className="project-detail-gallery">
             <img src="/images/mudroom-pantry-fix.png" alt="Custom mudroom storage lockers" />
-            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2070&auto=format&fit=crop" alt="Pull-out pantry shelving detail" />
-            <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?q=80&w=2070&auto=format&fit=crop" alt="Marble prep counter and brass fixtures" />
+            <img src="/images/pantry-shelving.png" alt="Pull-out pantry shelving detail" />
+            <img src="/images/marble-prep-counter.png" alt="Marble prep counter and brass fixtures" />
           </div>
 
           <div className="project-detail-features">

@@ -10,7 +10,7 @@ const ProjectColonialRenovation = () => {
       <Hero 
         title="Main Line Colonial Renovation"
         subtitle="A full-scale update to a historic property, blending modern amenities with classic architectural details."
-        image="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop"
+        image="/images/colonial-exterior.png"
       />
       <div className="container section">
         <div className="project-detail-content">
@@ -56,9 +56,9 @@ const ProjectColonialRenovation = () => {
           </div>
 
           <div className="project-detail-gallery">
-            <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?q=80&w=2070&auto=format&fit=crop" alt="Renovated colonial exterior" />
-            <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=2070&auto=format&fit=crop" alt="Open-concept first floor living" />
-            <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7c5a38?q=80&w=2070&auto=format&fit=crop" alt="Period-appropriate millwork details" />
+            <img src="/images/colonial-exterior.png" alt="Renovated colonial exterior" />
+            <img src="/images/colonial-interior.png" alt="Open-concept first floor living" />
+            <img src="/images/millwork-detail.png" alt="Period-appropriate millwork details" />
           </div>
 
           <div className="project-detail-features">
