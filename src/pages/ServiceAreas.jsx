@@ -10,7 +10,7 @@ const ServiceAreas = () => {
         image="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?q=80&w=2070&auto=format&fit=crop"
       />
       <div className="container section">
-        <div className="max-w-800 mx-auto text-center" style={{maxWidth: '800px', margin: '0 auto'}}>
+        <div className="max-w-800 mx-auto text-center">
           <h2 className="mb-8">Pennsylvania's Premier Remodeler</h2>
           <p className="mb-12">
             Oak & Stone Kitchen & Bath is proud to offer our distinguished design and build services to homeowners across the following communities. If your town is strictly not listed, please reach out—we often accommodate projects in neighboring areas.

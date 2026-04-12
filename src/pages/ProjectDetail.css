@@ -205,6 +205,9 @@
 
   .project-detail-stats {
     grid-template-columns: 1fr 1fr;
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
   }
 
   .project-detail-gallery {

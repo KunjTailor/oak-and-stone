@@ -79,4 +79,8 @@
     align-items: center;
     text-align: center;
   }
+  
+  .hero-content {
+    padding-top: 130px; /* Offset for fixed header */
+  }
 }

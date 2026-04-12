@@ -10,7 +10,7 @@ const Process = () => {
         image="/images/design-planning.png"
       />
       <div className="container section">
-        <div className="max-w-800 mx-auto" style={{maxWidth: '800px', margin: '0 auto'}}>
+        <div className="max-w-800 mx-auto">
           <div className="process-step mb-12">
             <h2 className="mb-4"><span style={{color: 'var(--color-accent)'}}>01.</span> Consultation & Vision</h2>
             <p>Our journey begins with an in-depth consultation. We visit your home to understand your space, listen to your goals, and uncover your personal style. We discuss functionality, aesthetics, and targeted investment to establish a solid foundation for the project.</p>

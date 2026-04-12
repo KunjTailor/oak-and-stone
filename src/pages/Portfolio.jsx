@@ -11,7 +11,7 @@ const Portfolio = () => {
         image="/images/bathroom-hero.png"
       />
       <div className="container section">
-        <div className="portfolio-grid" style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(400px, 1fr))', gap: '2.5rem'}}>
+        <div className="portfolio-grid" style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 400px), 1fr))', gap: '2.5rem'}}>
           <ProjectCard 
             image="/images/kitchen-island.png"
             title="Modern Minimalist Kitchen"

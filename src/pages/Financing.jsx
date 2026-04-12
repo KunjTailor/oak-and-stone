@@ -11,15 +11,15 @@ const Financing = () => {
         image="/images/design-planning.png"
       />
       <div className="container section">
-        <div className="max-w-800 mx-auto" style={{maxWidth: '800px', margin: '0 auto'}}>
+        <div className="max-w-800 mx-auto">
           <h2 className="mb-6">Invest in Your Home</h2>
           <p className="mb-8">
             A premium remodel is an investment in your home's value and your daily quality of life. At Oak & Stone Kitchen & Bath, we understand that flexibility is key. That's why we partner with trusted financial institutions to offer competitive, straightforward financing solutions.
           </p>
 
-          <div style={{backgroundColor: 'var(--color-bg-primary)', padding: '3rem', borderLeft: '4px solid var(--color-accent)', marginBottom: '3rem'}}>
+          <div className="p-box" style={{backgroundColor: 'var(--color-bg-primary)', borderLeft: '4px solid var(--color-accent)', marginBottom: '3rem'}}>
             <h3 className="mb-4">Current Offers</h3>
-            <ul style={{display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem'}}>
+            <ul className="mb-8" style={{display: 'flex', flexDirection: 'column', gap: '1rem'}}>
               <li><strong>12 Months Same-As-Cash:</strong> No interest and no payments for the first 12 months on approved credit.</li>
               <li><strong>Low Fixed Monthly Payments:</strong> Spread the cost of your remodel over 5 to 10 years at a competitive fixed rate.</li>
             </ul>

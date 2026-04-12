@@ -11,7 +11,7 @@ const WholeHomeRenovations = () => {
         image="/images/whole-home-renovation.png"
       />
       <div className="container section">
-        <div style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem', maxWidth: '1000px', margin: '0 auto'}}>
+        <div className="max-w-1000 mx-auto" style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem'}}>
           <div>
             <h2 className="mb-6">A Cohesive Architectural Vision</h2>
             <p className="mb-4 text-large">
@@ -28,7 +28,7 @@ const WholeHomeRenovations = () => {
               <li><strong>Additions:</strong> Expanding your footprint to accommodate growing families or new lifestyle needs.</li>
             </ul>
 
-            <div className="text-center mt-12" style={{backgroundColor: 'var(--color-bg-secondary)', padding: '4rem 2rem'}}>
+            <div className="text-center mt-12 p-lg-box" style={{backgroundColor: 'var(--color-bg-secondary)'}}>
               <h3 className="mb-4">Ready to reimagine your entire home?</h3>
               <Link to="/contact" className="btn btn-primary">Schedule a Consultation</Link>
             </div>

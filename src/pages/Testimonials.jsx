@@ -11,7 +11,7 @@ const Testimonials = () => {
         image="/images/client-experiences-hero.png"
       />
       <div className="container section">
-        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '2.5rem'}}>
+        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 350px), 1fr))', gap: '2.5rem'}}>
           <TestimonialCard 
             quote="Oak & Stone completely transformed our kitchen. The level of detail and craftsmanship is unparalleled. Our project manager kept us informed every step of the way."
             author="Sarah & David M."

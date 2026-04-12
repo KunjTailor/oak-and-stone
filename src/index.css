@@ -34,6 +34,11 @@ body {
   background-color: var(--color-bg-primary);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -138,9 +143,48 @@ img {
 .mb-8 { margin-bottom: 2rem; }
 .mb-12 { margin-bottom: 3rem; }
 
+/* Viewport Utilities */
+.max-w-800 { max-width: 800px; width: 100%; }
+.max-w-1000 { max-width: 1000px; width: 100%; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.p-box { padding: 3rem; }
+.p-lg-box { padding: 4rem 2rem; }
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   :root {
-    --spacing-section: 4rem;
+    --spacing-section: 3rem;
+  }
+  
+  .container {
+    padding: 0 1.25rem;
+  }
+  
+  .p-box {
+    padding: 1.5rem;
+  }
+  
+  .p-lg-box {
+    padding: 2.5rem 1.25rem;
+  }
+  
+  .d-none-mobile {
+    display: none !important;
+  }
+  
+  .d-block-mobile {
+    display: block !important;
+  }
+  
+  .w-100-mobile {
+    width: 100% !important;
+  }
+  
+  .mb-8 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mb-12 {
+    margin-bottom: 2rem;
   }
 }

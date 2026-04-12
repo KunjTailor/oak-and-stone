@@ -222,6 +222,13 @@
 
   .process-image-col {
     order: 2; /* Put image after content on mobile */
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .process-img {
+    width: 100%;
+    margin-bottom: 0;
   }
   
   .process-content-col {

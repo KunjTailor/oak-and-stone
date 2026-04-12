@@ -11,7 +11,7 @@ const KitchenRemodeling = () => {
         image="/images/kitchen-hero.png"
       />
       <div className="container section">
-        <div style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem', maxWidth: '1000px', margin: '0 auto'}}>
+        <div className="max-w-1000 mx-auto" style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem'}}>
           <div>
             <h2 className="mb-6">A Masterpiece of Form and Function</h2>
             <p className="mb-4 text-large">
@@ -31,7 +31,7 @@ const KitchenRemodeling = () => {
               <li><strong>Layered Lighting:</strong> Perfect illumination for prep work, dining, and ambiance.</li>
             </ul>
 
-            <div className="text-center mt-12 bg-alt" style={{backgroundColor: 'var(--color-bg-secondary)', padding: '4rem 2rem'}}>
+            <div className="text-center mt-12 bg-alt p-lg-box" style={{backgroundColor: 'var(--color-bg-secondary)'}}>
               <h3 className="mb-4">Ready to design your dream kitchen?</h3>
               <Link to="/contact" className="btn btn-primary">Schedule a Consultation</Link>
             </div>

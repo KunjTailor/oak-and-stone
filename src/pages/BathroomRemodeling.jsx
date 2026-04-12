@@ -11,7 +11,7 @@ const BathroomRemodeling = () => {
         image="/images/bathroom-remodeling-fix.png"
       />
       <div className="container section">
-        <div style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem', maxWidth: '1000px', margin: '0 auto'}}>
+        <div className="max-w-1000 mx-auto" style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem'}}>
           <div>
             <h2 className="mb-6">Your Personal Retreat</h2>
             <p className="mb-4 text-large">
@@ -31,7 +31,7 @@ const BathroomRemodeling = () => {
               <li><strong>Custom Vanities:</strong> Tailored storage for a clutter-free, serene environment.</li>
             </ul>
 
-            <div className="text-center mt-12" style={{backgroundColor: 'var(--color-bg-secondary)', padding: '4rem 2rem'}}>
+            <div className="text-center mt-12 p-lg-box" style={{backgroundColor: 'var(--color-bg-secondary)'}}>
               <h3 className="mb-4">Ready to elevate your daily routine?</h3>
               <Link to="/contact" className="btn btn-primary">Schedule a Consultation</Link>
             </div>

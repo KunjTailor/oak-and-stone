@@ -11,7 +11,7 @@ const CustomCabinetry = () => {
         image="/images/cabinetry-hero.png"
       />
       <div className="container section">
-        <div style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem', maxWidth: '1000px', margin: '0 auto'}}>
+        <div className="max-w-1000 mx-auto" style={{display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '4rem'}}>
           <div>
             <h2 className="mb-6">The Mark of True Quality</h2>
             <p className="mb-4 text-large">
@@ -31,7 +31,7 @@ const CustomCabinetry = () => {
               <li><strong>Pantry Organization:</strong> Maximizing space with intelligent pull-outs and shelving.</li>
             </ul>
 
-            <div className="text-center mt-12" style={{backgroundColor: 'var(--color-bg-secondary)', padding: '4rem 2rem'}}>
+            <div className="text-center mt-12 p-lg-box" style={{backgroundColor: 'var(--color-bg-secondary)'}}>
               <h3 className="mb-4">Ready for uncompromising quality?</h3>
               <Link to="/contact" className="btn btn-primary">Schedule a Consultation</Link>
             </div>

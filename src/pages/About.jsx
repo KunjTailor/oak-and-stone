@@ -11,7 +11,7 @@ const About = () => {
         align="center"
       />
       <div className="container section">
-        <div className="max-w-800 mx-auto" style={{maxWidth: '800px', margin: '0 auto'}}>
+        <div className="max-w-800 mx-auto">
           <h2 className="mb-6">Established in Pennsylvania</h2>
           <p className="mb-4">
             Oak & Stone Kitchen & Bath was founded on a simple principle: your home is your sanctuary, and it deserves to be treated with the utmost respect. For decades, we have been the premier choice for luxury remodeling across the Main Line, Downingtown, West Chester, and Exton.
